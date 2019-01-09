@@ -8,7 +8,7 @@
     "identity": "SDG.templates.Web.React",
     "name": "SDG React + .NET Template",
     "shortName": "sdg-react",
-    "sourceName": "dotnet_sdg_template",
+    "sourceName": "content",
     "preferNameDirectory": true,
     "tags": {
       "language": "C#",

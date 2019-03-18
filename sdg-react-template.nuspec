@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>SDG.templates.Web.React</id>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <description>
       Creates a dummy app for use at Suncoast Developers Guild in Tampa Bay
     </description>
@@ -15,5 +15,6 @@
     <file
       src="content/**/*"
       target="Content" />
+    <file src="content/**/*" />
   </files>
 </package>

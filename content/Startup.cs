@@ -5,16 +5,20 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+
 using Newtonsoft.Json;
 using Swashbuckle.AspNetCore.Swagger;
 
-namespace content
+namespace sdg_react_template
 {
   public class Startup
   {
     public Startup(IConfiguration configuration)
     {
       Configuration = configuration;
+      new DatabaseContext().Database.Migrate();
+
     }
 
     public IConfiguration Configuration { get; }

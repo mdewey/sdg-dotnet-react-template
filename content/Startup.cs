@@ -32,6 +32,7 @@ namespace sdg_react_template
         options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
       });
 
+      services.AddDbContext<DatabaseContext>();
       services.AddHealthChecks();
       // Register the Swagger generator, defining 1 or more Swagger documents
       services.AddSwaggerGen(c =>

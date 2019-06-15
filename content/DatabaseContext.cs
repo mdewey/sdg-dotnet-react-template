@@ -2,6 +2,7 @@
 using System.Text.RegularExpressions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using sdg_react_template.Models;
 
 namespace sdg_react_template
 {
@@ -44,5 +45,7 @@ namespace sdg_react_template
     {
       modelBuilder.HasAnnotation("ProductVersion", "2.2.0-rtm-35687");
     }
+
+    public DbSet<Thing> Things { get; set; }
   }
 }

@@ -32,8 +32,7 @@ export function Home() {
       <p>To help you get started, we have also set up:</p>
       <ul>
         <li>
-          <strong>Client-side navigation</strong>. For example, click{' '}
-          <em>Counter</em> then <em>Back</em> to return here.
+          <strong>Client-side navigation</strong>.
         </li>
         <li>
           <strong>Development server integration</strong>. In development mode,
@@ -47,6 +46,9 @@ export function Home() {
           development-time features are disabled, and your{' '}
           <code>dotnet publish</code> configuration produces minified,
           efficiently bundled JavaScript files.
+        </li>
+        <li>
+          <strong>Docker</strong>.
         </li>
       </ul>
       <p>

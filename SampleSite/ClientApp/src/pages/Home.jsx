@@ -3,8 +3,8 @@ import React from './node_modules/react'
 export function Home() {
   return (
     <div>
-      <h1>Hello, world!</h1>
-      <p>Welcome to your new single-page application, built with:</p>
+      <h1>Hello Student!</h1>
+      <p>Welcome to your new SDG SPA, built with:</p>
       <ul>
         <li>
           <a href="https://get.asp.net/">ASP.NET Core</a> and{' '}
@@ -16,6 +16,13 @@ export function Home() {
         <li>
           <a href="https://facebook.github.io/react/">React</a> for client-side
           code
+        </li>
+        <li>
+          <a href="https://www.typescriptlang.org/">Typescript</a> for better
+          client-side code
+        </li>
+        <li>
+          <a href="https://sass-lang.com/">Sass</a> for better css
         </li>
         <li>
           <a href="http://getbootstrap.com/">Bootstrap</a> for layout and

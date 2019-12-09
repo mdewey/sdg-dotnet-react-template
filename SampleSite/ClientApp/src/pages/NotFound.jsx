@@ -1,5 +1,4 @@
-import React from './node_modules/react'
-import { spawn } from 'child_process'
+import React from 'react'
 
 const NotFound = () => {
   return (

@@ -8,7 +8,7 @@ namespace SampleSite.Models
   public partial class DatabaseContext : DbContext
   {
 
-    public DbSet<Mint> Mints { get; set; }
+
 
 
     private string ConvertPostConnectionToConnectionString(string connection)

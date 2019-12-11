@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>SDG.templates.Web.React</id>
-    <version>2.0.0</version>
+    <version>4.2.0</version>
     <description>
       Creates a dummy app for use at Suncoast Developers Guild in Tampa Bay
     </description>
@@ -13,8 +13,8 @@
   </metadata>
    <files>
     <file
-      src="content/**/*"
-      target="Content" />
-    <file src="content/.gitignore" />
+      src="SampleSite/**/*"
+      target="SampleSite" />
+    <file src="SampleSite/.gitignore" />
   </files>
 </package>

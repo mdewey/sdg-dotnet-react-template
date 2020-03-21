@@ -23,7 +23,7 @@ namespace SampleSite.Models
       if (!optionsBuilder.IsConfigured)
       {
         var envConn = Environment.GetEnvironmentVariable("DATABASE_URL");
-#warning Update this connection string to point to your own database.
+#error Update this connection string to point to your own database.
         var conn = "server=localhost;database=SampleSiteDatabase";
         if (envConn != null)
         {

@@ -1,7 +1,8 @@
-docker build -t sdg-sample-site-template .
+docker build -t sdg-template-1-image .
 
-docker tag sdg-sample-site-template registry.heroku.com/sdg-sample-site-template/web
+docker tag sdg-template-1-image registry.heroku.com/sdg-template-1/web
 
-docker push registry.heroku.com/sdg-sample-site-template/web
 
-heroku container:release web -a sdg-sample-site-template
+docker push registry.heroku.com/sdg-template-1/web
+
+heroku container:release web -a sdg-template-1

@@ -5,7 +5,7 @@
   "identity": "SDG.templates.Web.React",
   "name": "SDG React + .NET Template",
   "shortName": "sdg-react",
-  "sourceName": "sdg_react_template",
+  "sourceName": "SampleSite",
   "preferNameDirectory": true,
   "tags": {
     "language": "C#",
